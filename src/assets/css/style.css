@@ -1,0 +1,22 @@
+/* General */
+body {
+    background: #58647a;
+    color: #fff;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+/* Line through */
+input[type=checkbox]:checked + label.strikethrough{
+    text-decoration: line-through;
+    color: #999;
+}
